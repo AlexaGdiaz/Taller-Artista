@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    background-image: url(/imagenes/collage2.png);
+    width: 100%;
+    margin: 0px;
+}
+.tabla{
+    margin: 20px;
+    background-color: #000000;
+    width: 1000px;
+    border: 10px solid #FFE774;
+    border-radius: 15px;
+}
+
+thead th{
+    padding: 30px;
+    font-size: 40px;
+    color: #FFE774;
+    font-family: "titulos";
+}
+tbody td{
+    padding: 15px;
+    color: #ffffff;
+    font-size: 20px;
+   
+}
+tbody a{
+    color: #ffffff;
+}

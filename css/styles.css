@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "textos";
+    src: url("/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+body{
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+}
+.carousel-item img {
+    height: 300px;
+}
+.foto1, .textosam,.foto2,.textosam2{
+    padding:15px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+     align-items: center;
+     display: inline-block;
+}    
+
+.foto1, .textosam,.foto2,.textosam2{
+    display: flex;
+    justify-content: space-around;
+}
+.am1, .am2,.am3,.am4,.am5,.am6{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.textos1, .textos2, .textos3,.textos4,.textos5,.textos6{
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    font-family: "textos";
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.video iframe{
+    border-radius: 20px;
+}

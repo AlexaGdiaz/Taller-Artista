@@ -1,0 +1,22 @@
+.bar-end{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+     background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+     align-items: center;
+     margin-top: 130px;
+     width: 100%;
+}
+
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+.mapa{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+}
+.icon{
+   padding-left: 200px;
+}
